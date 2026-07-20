@@ -1,5 +1,5 @@
 import { Instagram } from "lucide-react";
-import instaProfile from "@/assets/insta-profile.png.asset.json";
+import instaProfile from "@/assets/insta-profile.png";
 
 export function Iphone16Pro({
   width = 260,
@@ -103,7 +103,7 @@ export default function InstagramCTA() {
           <div className="absolute inset-0 bg-primary/20 blur-3xl rounded-full" />
           <div className="relative">
             <Iphone16Pro
-              src={instaProfile.url}
+              src={instaProfile}
               width={280}
               height={560}
             />

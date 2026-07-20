@@ -21,7 +21,7 @@ import {
   CheckCircle2,
 } from "lucide-react";
 import logo from "@/assets/fuel-inject-logo.png";
-import hero from "@/assets/fuel-inject-facade.png.asset.json";
+import hero from "@/assets/fuel-inject-facade.png";
 
 import { Reveal } from "@/components/Reveal";
 import { Marquee } from "@/components/Marquee";
@@ -157,7 +157,7 @@ function Hero() {
     <section id="top" className="relative overflow-hidden pt-28 pb-20 min-h-[92vh] md:pt-32 md:pb-20 md:min-h-screen text-white bg-black">
       <div className="absolute inset-0">
         <img
-          src={hero.url}
+          src={hero}
           alt="Fachada da oficina Fuel Inject BR"
           width={1600}
           height={1104}
@@ -388,7 +388,7 @@ function About() {
           <div className="relative">
             <div className="relative overflow-hidden rounded-[2rem] border border-black/10 shadow-[0_24px_60px_-24px_rgba(0,0,0,0.25)]">
               <img
-                src={hero.url}
+                src={hero}
                 alt="Fachada da Fuel Inject BR"
                 width={1200}
                 height={900}
