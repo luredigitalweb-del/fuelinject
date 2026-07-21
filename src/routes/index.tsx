@@ -73,7 +73,7 @@ function Nav() {
       <div className="mx-auto max-w-6xl">
         <nav className="flex items-center justify-between gap-2 sm:gap-4 rounded-full border border-white/10 bg-black/80 pl-4 sm:pl-5 pr-2 py-2 backdrop-blur-lg shadow-[0_10px_40px_-10px_rgba(0,0,0,0.6)]">
           <a href="#top" className="flex items-center gap-2 min-w-0 shrink-0">
-            <img src={logo} alt="Fuel Inject BR" className="h-10 sm:h-11 w-auto" />
+            <img src={logo} alt="Fuel Inject" className="h-10 sm:h-11 w-auto" />
           </a>
           <div className="hidden md:flex items-center gap-8 text-sm text-white/80">
             {links.map((l) => (
@@ -114,7 +114,7 @@ function Nav() {
           className={`absolute right-0 top-0 h-full w-[85%] max-w-sm bg-black border-l border-white/10 p-6 flex flex-col gap-6 transition-transform duration-300 ${open ? "translate-x-0" : "translate-x-full"}`}
         >
           <div className="flex items-center justify-between">
-            <img src={logo} alt="Fuel Inject BR" className="h-10 w-auto" />
+            <img src={logo} alt="Fuel Inject" className="h-10 w-auto" />
             <button
               type="button"
               aria-label="Fechar menu"
@@ -158,7 +158,7 @@ function Hero() {
       <div className="absolute inset-0">
         <img
           src={hero}
-          alt="Fachada da oficina Fuel Inject BR"
+          alt="Fachada da oficina Fuel Inject"
           width={1600}
           height={1104}
           className="hero-bg-zoom h-full w-full object-cover"
@@ -389,7 +389,7 @@ function About() {
             <div className="relative overflow-hidden rounded-[2rem] border border-black/10 shadow-[0_24px_60px_-24px_rgba(0,0,0,0.25)]">
               <img
                 src={hero}
-                alt="Fachada da Fuel Inject BR"
+                alt="Fachada da Fuel Inject"
                 width={1200}
                 height={900}
                 className="h-[320px] md:h-[520px] w-full object-cover"
@@ -426,7 +426,7 @@ function About() {
               </span>
               <div className="flex-1">
                 <span className="block text-[11px] font-semibold uppercase tracking-[0.18em] text-primary">Atendimento todo mês</span>
-                <span className="mt-0.5 block font-semibold leading-snug">Junte-se aos clientes que confiam na Fuel Inject BR</span>
+                <span className="mt-0.5 block font-semibold leading-snug">Junte-se aos clientes que confiam na Fuel Inject</span>
               </div>
               <ArrowRight className="h-5 w-5 shrink-0 text-primary" />
             </a>
@@ -456,7 +456,7 @@ const DIFFERENTIALS = [
   { icon: Gauge, title: "Bancada de última geração", desc: "Testes de pressão, vazão e retorno em bancada calibrada, equivalente aos padrões de montadoras." },
   { icon: Award, title: "Equipe técnica especializada", desc: "Bombistas experientes em linha pesada CAT, Cummins, MWM, Scania, Volvo, MB e mais." },
   { icon: ShieldCheck, title: "Garantia formal em tudo", desc: "Todo serviço e peça acompanhado de laudo técnico e cobertura de garantia por escrito." },
-  { icon: Zap, title: "Agilidade que reduz downtime", desc: "Processos otimizados para devolver seu ativo à operação no menor tempo possível." },
+  { icon: Zap, title: "Agilidade que reduz o tempo parado", desc: "Processos otimizados para devolver seu ativo à operação no menor tempo possível." },
 ];
 
 function Differentials() {
@@ -487,7 +487,7 @@ function Differentials() {
       <div className="mx-auto max-w-6xl">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="font-display text-2xl md:text-5xl font-bold leading-[1.05]">
-            Por que a <span className="text-primary">Fuel Inject BR</span> é diferente.
+            Por que a <span className="text-primary">Fuel Inject</span> é diferente.
           </h2>
           <p className="mt-4 text-sm md:text-base text-black/60 leading-relaxed">
             Quatro pilares que separam a nossa operação de uma oficina comum e fazem frotistas voltarem safra após safra.
@@ -596,7 +596,7 @@ function Fleet() {
               </span>
 
               <h2 className="fleet-title mt-6 font-display text-[2rem] md:text-[3.25rem] font-bold uppercase leading-[1.05] tracking-tight text-white">
-                Reduza o TCO e o downtime da sua operação
+                Reduza os custos e o tempo parado da sua operação
               </h2>
 
               <p className="fleet-body mt-5 text-white/70 leading-relaxed">
@@ -996,7 +996,7 @@ function LocationSection() {
 
         <div className="relative overflow-hidden rounded-[2rem] border border-black/10 shadow-[0_24px_60px_-24px_rgba(0,0,0,0.25)] aspect-[4/3] lg:aspect-auto lg:h-[520px]">
           <iframe
-            title="Localização Fuel Inject BR"
+            title="Localização Fuel Inject"
             src={embed}
             className="w-full h-full border-0"
             loading="lazy"
@@ -1013,7 +1013,7 @@ function Footer() {
     <footer className="relative py-16 px-4 bg-black border-t border-white/10">
       <div className="mx-auto max-w-6xl grid md:grid-cols-4 gap-10">
         <div className="md:col-span-2">
-          <img src={logo} alt="Fuel Inject BR" className="h-14 w-auto" />
+          <img src={logo} alt="Fuel Inject" className="h-14 w-auto" />
           <p className="mt-4 text-sm text-white/60 max-w-sm leading-relaxed">
             Tudo para o seu sistema de injeção diesel. Serviço completo no RS e envio de peças remanufaturadas com garantia para todo o Brasil.
           </p>
@@ -1050,7 +1050,7 @@ function Footer() {
       </div>
 
       <div className="mx-auto max-w-6xl mt-12 pt-6 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-white/55">
-        <div>© {new Date().getFullYear()} Fuel Inject BR · Todos os direitos reservados</div>
+        <div>© {new Date().getFullYear()} Fuel Inject · Todos os direitos reservados</div>
         <div>Política de privacidade · CNPJ sob consulta</div>
       </div>
     </footer>

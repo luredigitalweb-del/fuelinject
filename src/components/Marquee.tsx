@@ -16,7 +16,7 @@ const ITEMS_BOTTOM = [
   "Atendimento no RS",
   "Envio para todo Brasil",
   "Diagnóstico Técnico Rápido",
-  "Reduza o Downtime da Frota",
+  "Reduza o Tempo Parado da Frota",
   "Laudo Técnico Incluso",
   "Peças Remanufaturadas Testadas",
   "Atendimento B2B & Frotas",
