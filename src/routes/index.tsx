@@ -154,7 +154,7 @@ function Nav() {
 
 function Hero() {
   return (
-    <section id="top" className="relative overflow-hidden pt-28 pb-20 min-h-[92vh] md:pt-32 md:pb-20 md:min-h-screen text-white bg-black">
+    <section id="top" className="relative flex min-h-[92vh] md:min-h-screen items-center overflow-hidden pt-24 pb-16 md:pt-28 md:pb-20 text-white bg-black">
       <div className="absolute inset-0">
         <img
           src={hero}
@@ -168,14 +168,14 @@ function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black/40" />
       </div>
 
-      <div className="relative mx-auto max-w-6xl px-4 lg:px-6 pt-6 lg:pt-16">
-        <div className="max-w-2xl">
+      <div className="relative mx-auto w-full max-w-6xl px-4 lg:px-6">
+        <div className="max-w-xl md:max-w-2xl lg:max-w-3xl">
           <span className="hero-in animate-soft-float inline-flex items-center gap-2 rounded-full border border-primary/50 bg-primary/10 px-4 sm:px-5 py-2 text-[10px] sm:text-[11px] font-bold uppercase tracking-[0.18em] text-primary" style={{ animationDelay: "0.05s" }}>
             <span className="h-1.5 w-1.5 rounded-full bg-primary" />
             Injeção Diesel · Linha Pesada &amp; Amarela
           </span>
 
-          <h1 className="hero-in mt-5 sm:mt-6 font-display text-[2.25rem] xs:text-[2.5rem] sm:text-[2.75rem] md:text-8xl font-bold leading-[0.95] tracking-tight" style={{ animationDelay: "0.15s" }}>
+          <h1 className="hero-in mt-5 sm:mt-6 font-display text-[2.5rem] xs:text-[2.75rem] sm:text-[3rem] md:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight" style={{ animationDelay: "0.15s" }}>
             Máquina parada
             <br />
             <span className="text-primary">volta a rodar.</span>
@@ -206,7 +206,7 @@ function Hero() {
             </a>
           </div>
 
-          <div className="hero-in mt-8 md:mt-14 grid grid-cols-3 sm:flex sm:flex-wrap sm:items-start gap-x-4 sm:gap-x-12 gap-y-6" style={{ animationDelay: "0.7s" }}>
+          <div className="hero-in mt-10 md:mt-12 grid grid-cols-3 sm:flex sm:flex-wrap sm:items-start gap-x-4 sm:gap-x-12 gap-y-6" style={{ animationDelay: "0.7s" }}>
             <HeroStat kpi="+10" suffix="anos" label="de experiência" />
             <HeroStat kpi="100%" label="peças testadas" />
             <HeroStat kpi="RS" suffix="& Brasil" label="serviço + envio" />
